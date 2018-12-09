@@ -31,36 +31,34 @@ Para abrir a aplicação basta acessar `localhost:8080`.
 
 Explain how to run the automated tests for this system
 
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
 ## Tecnologias Utilizadas
 
 ### Linguagens
 
->> Aplicação
+> Aplicação
+
 *HTML
 *CSS
 *JS
 
->> Software Embarcado
+> Software Embarcado
 *C/C++
 
 ### Outras
 
->> Aplicação
+> Aplicação
+
 *Vuex (MIT)
 *VueRouter (MIT)
-*Vuetify (MIT)
-*Vuetify Dashboard (MIT)
 *Vue.js (MIT)
 *git (GPLv2)
 *vue-cli3 (MIT)
 * NodeJS
 * MongoDB
 
->> Software Embarcado
+> Software Embarcado
+
+*Arduino IDE
 * ESP8266WiFi
 * ESP8266WiFiMesh
 
