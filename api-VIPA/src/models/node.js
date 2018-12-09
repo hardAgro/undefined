@@ -1,24 +1,14 @@
 const mongoose = require('../database');
 
 const NodeSchema = new mongoose.Schema({
-	name: {
+	id: {
 		type: String,
 		required: true,
-	},
-	email: {
+	}, 
+	rps: {
 		type: String,
-		unique: true,
 		required: true,
 		lowercase: true,
-	},
-	password: {
-		type: String,
-		required: true,
-		select: false
-	},
-	createdAt: {
-		type: Date,
-		default: Date.now,
 	},
 });
 
