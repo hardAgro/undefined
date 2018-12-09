@@ -5,13 +5,14 @@ O projeto traz o monitoramento de aspersores em uma rede mesh (com ESP8266). É 
 
 ## Getting Started
 
-Para executar a aplicação é preciso executar o nodeJS.
-
 ### Pré-requisito
 
 * npm v6.4+
+* Arduino IDE
 
 ### Instalação
+
+Na pasta `hardware` estão os códigos que devem ser executados nas ESP's e no NodeMCU. Para passar os códigos para o hardware basta abrir em uma IDE Arduino e enviar o código via serial.
 
 Na pasta `./frontend`, execute
 
@@ -24,7 +25,7 @@ e, após as dependências instaladas, rode
 ```shell-session
 npm run serve
 ```
-Para executar a  API. 
+Para executar a  API, dentro da pasta `api-VIPA/src/` execute o comando 
 ```shell-session
 npm src index.js
 ```
@@ -48,6 +49,7 @@ Para abrir a aplicação basta acessar `localhost:8080` no navegador.
 
 > Aplicação
 
+* Shards Dashboard Vue (MIT)
 * Vuex (MIT)
 * VueRouter (MIT)
 * Vue.js (MIT)
