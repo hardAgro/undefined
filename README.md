@@ -25,7 +25,9 @@ e, após as dependências instaladas, rode
 ```shell-session
 npm run serve
 ```
-Para executar a  API, dentro da pasta `api-VIPA/src/` execute o comando 
+Obs: O banco de dados é mongo, por isso detro da pasta `api-VIPA/src/database/` tem um arquivo `database.js`, nele se faz necessário colocar o endereço do banco que se deseja conectar.
+Para executar a  API, dentro da pasta `api-VIPA/src/` execute o comando
+
 ```shell-session
 npm src index.js
 ```
