@@ -14,7 +14,7 @@ O projeto traz o monitoramento de aspersores em uma rede mesh (com ESP8266). É 
 
 Na pasta `hardware` estão os códigos que devem ser executados nas ESP's e no NodeMCU. Para passar os códigos para o hardware basta abrir em uma IDE Arduino e enviar o código via serial.
 
-Na pasta `./frontend`, execute
+Na pasta `aplication`, execute
 
 ```shell-session
 npm install
