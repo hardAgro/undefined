@@ -24,12 +24,12 @@ e, após as dependências instaladas, rode
 ```shell-session
 npm run serve
 ```
+Para executar a  API. 
+```shell-session
+npm src index.js
+```
 
-Para abrir a aplicação basta acessar `localhost:8080`.
-
-## Executar os testes
-
-Explain how to run the automated tests for this system
+Para abrir a aplicação basta acessar `localhost:8080` no navegador.
 
 ## Tecnologias Utilizadas
 
