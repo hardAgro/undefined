@@ -11,26 +11,7 @@
       <canvas height="220" ref="canvas" class="blog-users-by-device m-auto"></canvas>
     </div>
 
-    <d-card-footer class="border-top">
-      <d-row>
-
-        <!-- Time Frame -->
-        <d-col>
-          <d-select size="sm" value="last-week" style="max-width: 130px;">
-            <option value="last-week">Last Week</option>
-            <option value="today">Today</option>
-            <option value="last-month">Last Month</option>
-            <option value="last-year">Last Year</option>
-          </d-select>
-        </d-col>
-
-        <!-- View Full Report -->
-        <d-col class="text-right view-report">
-          <a href="#">View full report &rarr;</a>
-        </d-col>
-
-      </d-row>
-    </d-card-footer>
+    
   </div>
 </template>
 
