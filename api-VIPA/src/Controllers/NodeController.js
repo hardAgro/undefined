@@ -6,6 +6,7 @@ const router = express.Router();
 
 router.post('/node-map', async (req, res) => {
 	try {
+		res.setHeader('Access-Control-Allow-Origin','*');
 		const node = await Node.create(req.body);
 		return res.send({ node });
 	} catch (error) {
@@ -15,7 +16,8 @@ router.post('/node-map', async (req, res) => {
 
 router.get('/list',async (req, res) => {
     try {
-        const nodes = await Node.find({});
+		res.setHeader('Access-Control-Allow-Origin','*');
+		const nodes = await Node.find({});
         return res.send({nodes});
     } catch (error) {
         return res.send(error);

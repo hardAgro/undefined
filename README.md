@@ -5,72 +5,72 @@ O projeto traz o monitoramento de aspersores em uma rede mesh (com ESP8266). É 
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
 ### Pré-requisito
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
+* npm v6.4+
+* Arduino IDE
 
 ### Instalação
 
-A step by step series of examples that tell you how to get a development env running
+Na pasta `hardware` estão os códigos que devem ser executados nas ESP's e no NodeMCU. Para passar os códigos para o hardware basta abrir em uma IDE Arduino e enviar o código via serial.
 
-Say what the step will be
+Na pasta `aplication`, execute
 
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
+```shell-session
+npm install
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+e, após as dependências instaladas, rode
 
-## Executar os testes
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
+```shell-session
+npm run serve
 ```
-Give an example
+Para executar a  API, dentro da pasta `api-VIPA/src/` execute o comando 
+```shell-session
+npm src index.js
 ```
 
-### And coding style tests
+Para abrir a aplicação basta acessar `localhost:8080` no navegador.
 
-Explain what these tests test and why
+## Tecnologias Utilizadas
 
-```
-Give an example
-```
+### Linguagens
 
-## Deployment
+> Aplicação
 
-Add additional notes about how to deploy this on a live system
+* HTML
+* CSS
+* JS
 
-## Built With
+> Software Embarcado
+* C/C++
 
-* ESP8266WiFi
-* ESP8266WiFiMesh
-* NodeJS
-* VueJS
+### Outras
+
+> Aplicação
+
+* Shards Dashboard Vue (MIT)
+* Vuex (MIT)
+* VueRouter (MIT)
+* Vue.js (MIT)
+* git (GPLv2)
+* vue-cli3 (MIT)
+* NodeJS (MIT)
 * MongoDB
+
+> Software Embarcado
+
+* Arduino IDE (GPLv2)
+* ESP8266WiFi (LGPL)
+* ESP8266WiFiMesh (LGPL)
+
 
 ## Autores
 
-* **[Italo André](https://github.com/IACF)** - *Aplicativo*
-* **[Patrícia Coelho](https://github.com/patriciacoelho)** - *Circuito e Suporte*
-* **[Victor Gabriel](https://github.com/victorgfb)** - *Software e Hardware Embarcado*
+* **[Italo André](https://github.com/IACF)** - *Especialista*
+* **[Patrícia Coelho](https://github.com/patriciacoelho)** - *Desenvolvedor*
+* **[Victor Gabriel](https://github.com/victorgfb)** - *Desenvolvedor*
 
 ## Licença
 
-This project is licensed under the MIT License
+[MIT License](https://github.com/hardAgro/topzera/blob/master/LICENSE.txt)
