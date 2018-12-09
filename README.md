@@ -9,7 +9,7 @@ Para executar a aplicação é preciso executar o nodeJS.
 
 ### Pré-requisito
 
-*npm v6.4+
+* npm v6.4+
 
 ### Instalação
 
@@ -48,17 +48,17 @@ Explain how to run the automated tests for this system
 
 > Aplicação
 
-*Vuex (MIT)
-*VueRouter (MIT)
-*Vue.js (MIT)
-*git (GPLv2)
-*vue-cli3 (MIT)
+* Vuex (MIT)
+* VueRouter (MIT)
+* Vue.js (MIT)
+* git (GPLv2)
+* vue-cli3 (MIT)
 * NodeJS
 * MongoDB
 
 > Software Embarcado
 
-*Arduino IDE
+* Arduino IDE
 * ESP8266WiFi
 * ESP8266WiFiMesh
 
