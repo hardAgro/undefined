@@ -5,72 +5,72 @@ O projeto traz o monitoramento de aspersores em uma rede mesh (com ESP8266). É 
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Para executar a aplicação é preciso executar o nodeJS.
 
 ### Pré-requisito
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
+*npm v6.4+
 
 ### Instalação
 
-A step by step series of examples that tell you how to get a development env running
+Na pasta `./frontend`, execute
 
-Say what the step will be
-
-```
-Give the example
+```shell-session
+npm install
 ```
 
-And repeat
+e, após as dependências instaladas, rode
 
-```
-until finished
+```shell-session
+npm run serve
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+Para abrir a aplicação basta acessar `localhost:8080`.
 
 ## Executar os testes
 
 Explain how to run the automated tests for this system
 
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
 ## Deployment
 
 Add additional notes about how to deploy this on a live system
 
-## Built With
+## Tecnologias Utilizadas
 
+### Linguagens
+
+>> Aplicação
+*HTML
+*CSS
+*JS
+
+>> Software Embarcado
+*C/C++
+
+### Outras
+
+>> Aplicação
+*Vuex (MIT)
+*VueRouter (MIT)
+*Vuetify (MIT)
+*Vuetify Dashboard (MIT)
+*Vue.js (MIT)
+*git (GPLv2)
+*vue-cli3 (MIT)
+* NodeJS
+* MongoDB
+
+>> Software Embarcado
 * ESP8266WiFi
 * ESP8266WiFiMesh
-* NodeJS
-* VueJS
-* MongoDB
+
 
 ## Autores
 
-* **[Italo André](https://github.com/IACF)** - *Aplicativo*
-* **[Patrícia Coelho](https://github.com/patriciacoelho)** - *Circuito e Suporte*
-* **[Victor Gabriel](https://github.com/victorgfb)** - *Software e Hardware Embarcado*
+* **[Italo André](https://github.com/IACF)** - *Especialista*
+* **[Patrícia Coelho](https://github.com/patriciacoelho)** - *Desenvolvedor*
+* **[Victor Gabriel](https://github.com/victorgfb)** - *Desenvolvedor*
 
 ## Licença
 
-This project is licensed under the MIT License
+[MIT License](https://github.com/hardAgro/topzera/blob/master/LICENSE.txt)
