@@ -1,16 +1,16 @@
 const express = require('express');
 
-const User = require('../models/user');
+const Node = require('../models/node');
 
 const router = express.Router();
 
-router.post('/register', async (req, res) => {
-    try {
-        const user = await User.create(req.body);
-        return res.send({ user });
-    } catch (error) {
-        return res.send(error);
-    }
+router.post('/node-map', async (req, res) => {
+	try {
+		const node = await Node.create(req.body);
+		return res.send({ node });
+	} catch (error) {
+		return res.send(error);
+	}
 });
 
-module.exports = app => app.use('/auth', router);
+module.exports = app => app.use('/node', router);
