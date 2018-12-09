@@ -1,11 +1,14 @@
 /* eslint-disable */
 import Vue from 'vue';
 import ShardsVue from 'shards-vue';
+import BootstrapVue from 'bootstrap-vue'
 
 // Styles
 import 'bootstrap/dist/css/bootstrap.css';
 import '@/scss/shards-dashboards.scss';
 import '@/assets/scss/date-range.scss';
+import 'bootstrap-vue/dist/bootstrap-vue.css'
+
 
 // Core
 import App from './App.vue';
@@ -17,6 +20,8 @@ import Default from '@/layouts/Default.vue';
 ShardsVue.install(Vue);
 
 Vue.component('default-layout', Default);
+
+Vue.use(BootstrapVue);
 
 Vue.config.productionTip = false;
 Vue.prototype.$eventHub = new Vue();
