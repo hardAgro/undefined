@@ -37,12 +37,12 @@ Explain how to run the automated tests for this system
 
 > Aplicação
 
-*HTML
-*CSS
-*JS
+* HTML
+* CSS
+* JS
 
 > Software Embarcado
-*C/C++
+* C/C++
 
 ### Outras
 
@@ -53,14 +53,14 @@ Explain how to run the automated tests for this system
 * Vue.js (MIT)
 * git (GPLv2)
 * vue-cli3 (MIT)
-* NodeJS
+* NodeJS (MIT)
 * MongoDB
 
 > Software Embarcado
 
-* Arduino IDE
-* ESP8266WiFi
-* ESP8266WiFiMesh
+* Arduino IDE (GPLv2)
+* ESP8266WiFi (LGPL)
+* ESP8266WiFiMesh (LGPL)
 
 
 ## Autores
