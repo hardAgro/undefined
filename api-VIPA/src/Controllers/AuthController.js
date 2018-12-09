@@ -13,4 +13,13 @@ router.post('/register', async (req, res) => {
     }
 });
 
+router.get('/list',async (req, res) => {
+    try {
+        const users = await User.find({});
+        return res.send({users});
+    } catch (error) {
+        return res.send(error);
+    }
+});
+
 module.exports = app => app.use('/auth', router);

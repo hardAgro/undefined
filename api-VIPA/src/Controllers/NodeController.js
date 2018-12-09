@@ -13,4 +13,13 @@ router.post('/node-map', async (req, res) => {
 	}
 });
 
+router.get('/list',async (req, res) => {
+    try {
+        const nodes = await Node.find({});
+        return res.send({nodes});
+    } catch (error) {
+        return res.send(error);
+    }
+});
+
 module.exports = app => app.use('/node', router);

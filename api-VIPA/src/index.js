@@ -12,6 +12,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
 
 require('./Controllers/AuthController')(app);
+require('./Controllers/NodeController')(app);
+
 
 app.get('/', function (req, res) {
     res.send('chegou');
